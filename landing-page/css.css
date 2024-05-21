@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(https://files.oaiusercontent.com/file-29r2z622OdWWuZNrSwE1z1CO?se=2024-05-16T23%3A55%3A30Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D87078762-508c-49f8-9c9b-cec77d1f2161.webp&sig=pRShwS%2BmQDUWbUs%2Bpt8w1e7%2BOl3HLnUfN81CyP7rADU%3D);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding: 90px;
+    text-shadow: 3px 3px black;
+}
+
+div.card {
+    filter: drop-shadow(5px 5px 10px black);
+    background-image: url(https://t3.ftcdn.net/jpg/01/83/36/72/360_F_183367274_p7SCYNt7IyK5aSBQBBYOUPG5ZuGWjX5P.jpg);
+    background-size: cover;
+    background-color: beige;
+    background-position-y: 25%;
+    width: 100%;
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p#info {
+    background-image: url(https://t3.ftcdn.net/jpg/01/83/36/72/360_F_183367274_p7SCYNt7IyK5aSBQBBYOUPG5ZuGWjX5P.jpg);
+    background-size: cover;
+    width: 80%;
+    text-align: center;
+    filter: drop-shadow(5px 5px 10px black);
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
